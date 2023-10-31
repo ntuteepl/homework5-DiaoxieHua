@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int a;
     int b;
@@ -14,7 +15,9 @@ int main() {
             t=360-t;
         }
     }
+    if(t>180){
+    t=360-t;
+    }
    printf("%.3f",t);
 
 }
-
