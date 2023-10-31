@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    float a,b;
+    float a;
+    double b;
     scanf("%f",&a);
     if(a<=800){
     b=a*0.9;
